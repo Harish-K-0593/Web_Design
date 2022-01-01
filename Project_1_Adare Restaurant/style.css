@@ -1,0 +1,94 @@
+html {
+    
+    /* To ensure that the background is well fitted onto the webpage, use the attribute below: */
+    height:100%;
+}
+
+body {
+    background-color: darkslategrey;
+    
+    /* To add a full background image, use the function below. */
+    background-image: url(images/background-adare-restaurant.jpg);
+    
+    /* To ensure that an imaged is resized according to my screen size, use the attribute below: */
+    background-size: cover;
+
+    /* To disallow repeasts of images, use teh attribute below */
+    background-repeat: no-repeat;
+
+    /* To ensure that an inage is right smack in the centre, use the attribute below: */
+    background-position: center;
+}
+
+.container {
+    margin: auto;
+    width: 1024px;
+}
+
+header {
+    height: 118px;
+    
+    /* text-align is used to center an image. see below. */
+    text-align: center;
+}
+
+nav {
+    /* The fourth component "a" which stands for Alpha, denotes the opacity of the nav bar. I've set it to 30% opaque below. */
+    background-color:rgba(0, 0, 0, 0.300);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+}
+
+main {
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+a {
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    /* to remove the default underline to an hyper link, use 'text-decoration' */
+}
+
+footer {
+    background-color:rgba(0, 0, 0, 0.300);
+    height: 100px;
+}
+
+h1 {
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Compound Class Selector = to apply certain styles to specific texts. In this case, all the a tags under the nav panel will have no underlines and all other styling below. */
+
+nav a {
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+footer p {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    padding: 40px;
+}
+
+.maps {
+    padding-bottom: 50px;
+}
